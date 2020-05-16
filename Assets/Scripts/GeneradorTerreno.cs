@@ -8,17 +8,19 @@ public class GeneradorTerreno : MonoBehaviour
 
     private Vector3 pos = new Vector3(0, 0, 0);
     private List<GameObject> TerrenosActuales = new List<GameObject>();
-    [SerializeField] private List<GameObject> terrenos = new List<GameObject>();
+    [SerializeField] private List<TerrainData> infoTerreno = new List<TerrainData>();
     [SerializeField] private int LimiteTerreno;
+    [SerializeField] private Transform guardarTerreno;
     
     // Start is called before the first frame update
     void Start()
     {
         for(int i =0; i< LimiteTerreno; i++)
         {
-            GenerarT();
+            GenerarT(true);
 
         }
+        LimiteTerreno = TerrenosActuales.Count;
         
     }
 
@@ -27,19 +29,32 @@ public class GeneradorTerreno : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.W))
         {
-            GenerarT();
+            GenerarT(false);
         }
     }
 
-    private void GenerarT()
+    private void GenerarT(bool inicia)
     {
-        GameObject terreno =  Instantiate(terrenos[Random.Range(0,terrenos.Count)],pos,Quaternion.identity);
-        TerrenosActuales.Add(terreno);
-        if(TerrenosActuales.Count > LimiteTerreno)
+
+        int queTerreno = Random.Range(0, infoTerreno.Count);
+        int terrenoEnCrecimiento = Random.Range(1, infoTerreno[queTerreno].maxEnFila);
+        
+        for (int i = 0; i < terrenoEnCrecimiento; i++)
         {
-            Destroy(TerrenosActuales[0]);
-            TerrenosActuales.RemoveAt(0);
+            GameObject terreno = Instantiate(infoTerreno[queTerreno].terreno, pos, Quaternion.identity,guardarTerreno);
+            TerrenosActuales.Add(terreno);
+            if (!inicia)
+            {
+                if (TerrenosActuales.Count > LimiteTerreno)
+                {
+                    Destroy(TerrenosActuales[0]);
+                    TerrenosActuales.RemoveAt(0);
+                }
+            }
+            
+            pos.x++;
+
         }
-        pos.x++;
+
     }
 }
