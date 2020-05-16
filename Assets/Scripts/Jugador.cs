@@ -20,11 +20,11 @@ public class Jugador : MonoBehaviour
         {
             animador.SetTrigger("salto");
             saltando = true;
-            Debug.Log(transform.position);
+            
             if(transform.position.z % 1 == 1)
             {
                 transform.Translate(new Vector3(1, 0, 0));
-                Debug.Log("En area");
+                
             }
                
 
