@@ -6,18 +6,19 @@ public class GeneradorTerreno : MonoBehaviour
 {
 
 
-    private Vector3 pos = new Vector3(0, 0, 0);
-    private List<GameObject> TerrenosActuales = new List<GameObject>();
+    [SerializeField] private int mindistanciaDesdeJugador;
     [SerializeField] private List<TerrainData> infoTerreno = new List<TerrainData>();
     [SerializeField] private int LimiteTerreno;
     [SerializeField] private Transform guardarTerreno;
-    
+
+    [HideInInspector] public Vector3 pos = new Vector3(0, 0, 0);
+    private List<GameObject> TerrenosActuales = new List<GameObject>();
     // Start is called before the first frame update
     void Start()
     {
         for(int i =0; i< LimiteTerreno; i++)
         {
-            GenerarT(true);
+            GenerarT(true, new Vector3(0,0,0));
 
         }
         LimiteTerreno = TerrenosActuales.Count;
@@ -25,36 +26,31 @@ public class GeneradorTerreno : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.W))
-        {
-            GenerarT(false);
-        }
-    }
 
-    private void GenerarT(bool inicia)
-    {
 
-        int queTerreno = Random.Range(0, infoTerreno.Count);
-        int terrenoEnCrecimiento = Random.Range(1, infoTerreno[queTerreno].maxEnFila);
-        
-        for (int i = 0; i < terrenoEnCrecimiento; i++)
+    public void GenerarT(bool inicia , Vector3 posJugador)
+    {
+        if (pos.x - posJugador.x < mindistanciaDesdeJugador) 
         {
-            GameObject terreno = Instantiate(infoTerreno[queTerreno].terreno, pos, Quaternion.identity,guardarTerreno);
-            TerrenosActuales.Add(terreno);
-            if (!inicia)
+            int queTerreno = Random.Range(0, infoTerreno.Count);
+            int terrenoEnCrecimiento = Random.Range(1, infoTerreno[queTerreno].maxEnFila);
+
+            for (int i = 0; i < terrenoEnCrecimiento; i++)
             {
-                if (TerrenosActuales.Count > LimiteTerreno)
+                GameObject terreno = Instantiate(infoTerreno[queTerreno].terreno, pos, Quaternion.identity, guardarTerreno);
+                TerrenosActuales.Add(terreno);
+                if (!inicia)
                 {
-                    Destroy(TerrenosActuales[0]);
-                    TerrenosActuales.RemoveAt(0);
+                    if (TerrenosActuales.Count > LimiteTerreno)
+                    {
+                        Destroy(TerrenosActuales[0]);
+                        TerrenosActuales.RemoveAt(0);
+                    }
                 }
+
+                pos.x++;
+
             }
-            
-            pos.x++;
-
-        }
-
+        }    
     }
 }

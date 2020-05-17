@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Jugador : MonoBehaviour
 {
+    [SerializeField]private GeneradorTerreno generadorTerreno;
 
     private Animator animador;
     private bool saltando;
@@ -20,16 +21,30 @@ public class Jugador : MonoBehaviour
         {
             animador.SetTrigger("salto");
             saltando = true;
-            Debug.Log(transform.position);
-            if(transform.position.z % 1 == 1)
+            float diferenciaZ = 0;
+            if (transform.position.z % 1 == 1)
             {
-                transform.Translate(new Vector3(1, 0, 0));
-                Debug.Log("En area");
+                diferenciaZ = Mathf.RoundToInt(transform.position.z) - transform.position.z;
             }
-               
-
-            
+            MoverPersonaje (new Vector3(1, 0, diferenciaZ));
         }
+
+        else if (Input.GetKeyDown(KeyCode.A) && !saltando) 
+        {
+            MoverPersonaje(new Vector3(0, 0, -1));
+        }
+
+        else if (Input.GetKeyDown(KeyCode.D) && !saltando)
+        {
+            MoverPersonaje(new Vector3(0, 0, -1));
+        }
+    }
+    private void MoverPersonaje(Vector3 diferencia) 
+    {
+        animador.SetTrigger("salto");
+        saltando = true;
+        transform.position = (transform.position + diferencia);
+        generadorTerreno.GenerarT(false,transform.position);
     }
 
     public void finSalto()
