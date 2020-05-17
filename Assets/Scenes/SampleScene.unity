@@ -206,7 +206,7 @@ GameObject:
   - component: {fileID: 546736042}
   - component: {fileID: 546736041}
   m_Layer: 0
-  m_Name: Gnenerador Terreno
+  m_Name: Generador Terreno
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
