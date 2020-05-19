@@ -11,11 +11,14 @@ public class GeneradorTerreno : MonoBehaviour
     [SerializeField] private int LimiteTerreno;
     [SerializeField] private Transform guardarTerreno;
 
-    [HideInInspector] public Vector3 pos = new Vector3(0, 0, 0);
+    public Vector3 pos;
     private List<GameObject> TerrenosActuales = new List<GameObject>();
     // Start is called before the first frame update
     void Start()
     {
+        pos = new Vector3(0, 0, 0);
+        mindistanciaDesdeJugador = 15;
+        
         for(int i =0; i< LimiteTerreno; i++)
         {
             GenerarT(true, new Vector3(0,0,0));
