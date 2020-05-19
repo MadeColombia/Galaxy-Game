@@ -11,5 +11,6 @@ public class SeguimientoCamara : MonoBehaviour
     void Update()
     {
         transform.position = Vector3.Lerp(transform.position, jugador.transform.position + offset, smoothness);
+
     }
 }

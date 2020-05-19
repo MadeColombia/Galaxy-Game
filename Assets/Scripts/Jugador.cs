@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Jugador : MonoBehaviour
 {
-    [SerializeField]private GeneradorTerreno generadorTerreno;
+    [SerializeField] private GeneradorTerreno generadorTerreno;
 
     private Animator animador;
     private bool saltando;
