@@ -22,16 +22,17 @@ public class Jugador : MonoBehaviour
             animador.SetTrigger("salto");
             saltando = true;
             float diferenciaZ = 0;
-            if (transform.position.z % 1 == 1)
+            if (transform.position.z % 1 == 0)
             {
                 diferenciaZ = Mathf.RoundToInt(transform.position.z) - transform.position.z;
             }
-            MoverPersonaje (new Vector3(1, 0, diferenciaZ));
+            Vector3 diferencia = new Vector3(1, 0, diferenciaZ);
+            MoverPersonaje (diferencia);
         }
 
         else if (Input.GetKeyDown(KeyCode.A) && !saltando) 
         {
-            MoverPersonaje(new Vector3(0, 0, -1));
+            MoverPersonaje(new Vector3(0, 0, 1));
         }
 
         else if (Input.GetKeyDown(KeyCode.D) && !saltando)
