@@ -12,5 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0bd25888077762409923994e8baf4a6, type: 3}
   m_Name: Pasto
   m_EditorClassIdentifier: 
-  terreno: {fileID: 6167724810479969377, guid: b03d61f0f111291498ca97af61c55577, type: 3}
+  posibleTerreno:
+  - {fileID: 6167724810479969377, guid: b03d61f0f111291498ca97af61c55577, type: 3}
+  - {fileID: 5738242291676294300, guid: 794b33acb75c6134d88b4f6329ac7370, type: 3}
+  - {fileID: 6182208121739956307, guid: 9cb7473348aae344f96211ad6362c308, type: 3}
   maxEnFila: 5

@@ -33,14 +33,14 @@ public class GeneradorTerreno : MonoBehaviour
 
     public void GenerarT(bool inicia , Vector3 posJugador)
     {
-        if (pos.x - posJugador.x < mindistanciaDesdeJugador) 
+        if ((pos.x - posJugador.x < mindistanciaDesdeJugador) || (inicia) ) 
         {
             int queTerreno = Random.Range(0, infoTerreno.Count);
             int terrenoEnCrecimiento = Random.Range(1, infoTerreno[queTerreno].maxEnFila);
 
             for (int i = 0; i < terrenoEnCrecimiento; i++)
             {
-                GameObject terreno = Instantiate(infoTerreno[queTerreno].terreno, pos, Quaternion.identity, guardarTerreno);
+                GameObject terreno = Instantiate(infoTerreno[queTerreno].posibleTerreno[Random.Range(0,infoTerreno[queTerreno].posibleTerreno.Count)], pos, Quaternion.identity, guardarTerreno);
                 TerrenosActuales.Add(terreno);
                 if (!inicia)
                 {
