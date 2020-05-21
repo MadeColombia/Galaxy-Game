@@ -10,12 +10,9 @@ public class scriptmoneda : MonoBehaviour
     
     void OnTriggerEnter(Collider col)
     {
-        if (col.CompareTag("moneda"))
-        {
-            Destroy(col.gameObject);
-            source.PlayOneShot(clip);
-            
-        }
+        
+        
+            Destroy(gameObject);
         
     }
     void Start()
