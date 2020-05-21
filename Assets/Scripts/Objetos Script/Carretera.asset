@@ -14,4 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   posibleTerreno:
   - {fileID: 8477549423325669704, guid: f874afedabc5d8340b825c44936bb395, type: 3}
+  - {fileID: 8250886582668638737, guid: f79896b06a1423446bf877352b10e8cd, type: 3}
+  - {fileID: 8908343926702154121, guid: fc8ef9c47d25b3a49b81e8b1895f2b38, type: 3}
+  - {fileID: 1421103000595619654, guid: d64485be98ad35e458a95c8937a891bc, type: 3}
   maxEnFila: 4
