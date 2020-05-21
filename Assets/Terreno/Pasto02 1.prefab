@@ -11,9 +11,10 @@ GameObject:
   - component: {fileID: 4305258585460269536}
   - component: {fileID: 4305258585460269537}
   - component: {fileID: 5350664482045879947}
+  - component: {fileID: 8689958720901247920}
   m_Layer: 0
   m_Name: Coins (2)
-  m_TagString: Untagged
+  m_TagString: moneda
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 32
@@ -57,6 +58,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a12e3c9d344bbbe42a3fb24697e4796c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  source: {fileID: 0}
+  clip: {fileID: 0}
+--- !u!65 &8689958720901247920
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4305258585460269539}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.87, y: 1.79, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &4305258586067469391
 GameObject:
   m_ObjectHideFlags: 0
@@ -179,9 +195,10 @@ GameObject:
   - component: {fileID: 4305258586854905064}
   - component: {fileID: 4305258586854905065}
   - component: {fileID: 6280080277774434230}
+  - component: {fileID: 8332649508133466943}
   m_Layer: 0
   m_Name: Coins
-  m_TagString: Untagged
+  m_TagString: moneda
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -225,6 +242,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a12e3c9d344bbbe42a3fb24697e4796c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  source: {fileID: 0}
+  clip: {fileID: 0}
+--- !u!65 &8332649508133466943
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4305258586854905067}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.87, y: 1.79, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &4305258586958731237
 GameObject:
   m_ObjectHideFlags: 0
@@ -312,7 +344,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5580348120585748647}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 17.000002, y: 29, z: 18}
@@ -501,15 +533,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 666ec3b7bb72c254495bd598576ab332, type: 3}
---- !u!4 &5583576720182871007 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4000014180385860, guid: 666ec3b7bb72c254495bd598576ab332,
-    type: 3}
-  m_PrefabInstance: {fileID: 5580782975495538587}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &5580348120585748647 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1000010061563708, guid: 666ec3b7bb72c254495bd598576ab332,
+    type: 3}
+  m_PrefabInstance: {fileID: 5580782975495538587}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &5583576720182871007 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4000014180385860, guid: 666ec3b7bb72c254495bd598576ab332,
     type: 3}
   m_PrefabInstance: {fileID: 5580782975495538587}
   m_PrefabAsset: {fileID: 0}

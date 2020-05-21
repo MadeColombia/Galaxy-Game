@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4000014189189804}
   - component: {fileID: 33000014275473966}
   - component: {fileID: 23000012507546238}
+  - component: {fileID: -3330754115647275762}
   m_Layer: 0
   m_Name: FruitTree_2
   m_TagString: Untagged
@@ -79,3 +80,16 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &-3330754115647275762
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000013574824664}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 10, y: 23.000002, z: 10.000001}
+  m_Center: {x: 3.5, y: 11.500001, z: 1.0000005}

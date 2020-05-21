@@ -202,9 +202,10 @@ GameObject:
   - component: {fileID: 1421103000279367749}
   - component: {fileID: 1421103000279367770}
   - component: {fileID: 4123096969895791174}
+  - component: {fileID: 1254941999938815106}
   m_Layer: 0
   m_Name: Coins (2)
-  m_TagString: Untagged
+  m_TagString: moneda
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 32
@@ -248,6 +249,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a12e3c9d344bbbe42a3fb24697e4796c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!65 &1254941999938815106
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1421103000279367748}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.0734732, y: 1.8752742, z: 1}
+  m_Center: {x: 0.045412183, y: 0.02349639, z: -2.0125683e-16}
 --- !u!1 &1421103000595619654
 GameObject:
   m_ObjectHideFlags: 0
@@ -370,9 +384,10 @@ GameObject:
   - component: {fileID: 1421103000802098739}
   - component: {fileID: 1421103000802098736}
   - component: {fileID: 8199961142729479091}
+  - component: {fileID: 2839163365087397090}
   m_Layer: 0
   m_Name: Coins
-  m_TagString: Untagged
+  m_TagString: moneda
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 32
@@ -416,6 +431,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a12e3c9d344bbbe42a3fb24697e4796c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!65 &2839163365087397090
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1421103000802098738}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.0333467, y: 1.8717003, z: 1}
+  m_Center: {x: 0.07431173, y: 0.021997452, z: -1.6785504e-16}
 --- !u!1 &1421103001184855220
 GameObject:
   m_ObjectHideFlags: 0
@@ -520,9 +548,10 @@ GameObject:
   - component: {fileID: 1421103001279603382}
   - component: {fileID: 1421103001279603383}
   - component: {fileID: 5490032506454188883}
+  - component: {fileID: 8247425213788979595}
   m_Layer: 0
   m_Name: Coins (1)
-  m_TagString: Untagged
+  m_TagString: moneda
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 32
@@ -566,3 +595,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a12e3c9d344bbbe42a3fb24697e4796c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!65 &8247425213788979595
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1421103001279603377}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.7593825, y: 1.7577133, z: 1}
+  m_Center: {x: -0.038374424, y: 0.029374123, z: 1.0124426e-16}
