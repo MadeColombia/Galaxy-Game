@@ -36,17 +36,20 @@ public class Jugador : MonoBehaviour
             }
             Vector3 diferencia = new Vector3(1, 0, diferenciaZ);
             MoverPersonaje (diferencia);
+            transform.rotation = Quaternion.AngleAxis(90, new Vector3(0, 1, 0));
             score++;
         }
 
         else if (Input.GetKeyDown(KeyCode.A) && !saltando) 
         {
             MoverPersonaje(new Vector3(0, 0, 1));
+            transform.rotation = Quaternion.AngleAxis(0, new Vector3(0, 1, 0));
         }
 
         else if (Input.GetKeyDown(KeyCode.D) && !saltando)
         {
             MoverPersonaje(new Vector3(0, 0, -1));
+            transform.rotation = Quaternion.AngleAxis(180, new Vector3(0, 1, 0));
         }
     }
     private void MoverPersonaje(Vector3 diferencia) 
