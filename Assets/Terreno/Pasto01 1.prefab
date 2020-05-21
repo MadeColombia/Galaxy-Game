@@ -11,9 +11,11 @@ GameObject:
   - component: {fileID: 3478521750199812738}
   - component: {fileID: 3478521750199812861}
   - component: {fileID: 2212371047703127730}
+  - component: {fileID: 7232643618011994724}
+  - component: {fileID: 1877645297802499940}
   m_Layer: 0
   m_Name: Coins (1)
-  m_TagString: Untagged
+  m_TagString: moneda
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -57,6 +59,34 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a12e3c9d344bbbe42a3fb24697e4796c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  source: {fileID: 0}
+  clip: {fileID: 0}
+--- !u!65 &7232643618011994724
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3478521750199812739}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.9518467, y: 1.7808704, z: 1}
+  m_Center: {x: -0.111061275, y: 0.0897665, z: -1.9808077e-16}
+--- !u!114 &1877645297802499940
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3478521750199812739}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b332b66d00cf42843a85c66622ef8975, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Puntaje: 1
 --- !u!1 &3478521750669084221
 GameObject:
   m_ObjectHideFlags: 0
@@ -147,9 +177,11 @@ GameObject:
   - component: {fileID: 3478521750865849809}
   - component: {fileID: 3478521750865849808}
   - component: {fileID: 7879974809844153709}
+  - component: {fileID: 50946904696841684}
+  - component: {fileID: 5168975487915572955}
   m_Layer: 0
   m_Name: Coins
-  m_TagString: Untagged
+  m_TagString: moneda
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -193,6 +225,34 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a12e3c9d344bbbe42a3fb24697e4796c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  source: {fileID: 0}
+  clip: {fileID: 0}
+--- !u!65 &50946904696841684
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3478521750865849814}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.896851, y: 1.9180593, z: 1}
+  m_Center: {x: 0.023979723, y: 0.009220839, z: 1.0331674e-16}
+--- !u!114 &5168975487915572955
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3478521750865849814}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b332b66d00cf42843a85c66622ef8975, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Puntaje: 1
 --- !u!1 &3478521750924883434
 GameObject:
   m_ObjectHideFlags: 0
@@ -204,9 +264,11 @@ GameObject:
   - component: {fileID: 3478521750924883429}
   - component: {fileID: 3478521750924883428}
   - component: {fileID: 4504405747737095553}
+  - component: {fileID: 4716942508129045767}
+  - component: {fileID: 6632975549634848326}
   m_Layer: 0
   m_Name: Coins (2)
-  m_TagString: Untagged
+  m_TagString: moneda
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 32
@@ -250,6 +312,34 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a12e3c9d344bbbe42a3fb24697e4796c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  source: {fileID: 0}
+  clip: {fileID: 0}
+--- !u!65 &4716942508129045767
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3478521750924883434}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.9031537, y: 1.9171348, z: 1}
+  m_Center: {x: -0.048775077, y: 0.040569544, z: -1.9504268e-16}
+--- !u!114 &6632975549634848326
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3478521750924883434}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b332b66d00cf42843a85c66622ef8975, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Puntaje: 1
 --- !u!1 &3478521751016814434
 GameObject:
   m_ObjectHideFlags: 0
@@ -449,7 +539,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6476243549696429562}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 17.000002, y: 29, z: 18}
@@ -462,7 +552,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6679528975189940743}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 17.000002, y: 29, z: 18}
@@ -475,7 +565,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7064002602359312374}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 17.000002, y: 29, z: 18}
@@ -708,6 +798,26 @@ PrefabInstance:
     - target: {fileID: 4000014180385860, guid: 666ec3b7bb72c254495bd598576ab332, type: 3}
       propertyPath: m_LocalScale.z
       value: 0.003
+      objectReference: {fileID: 0}
+    - target: {fileID: 7117039938452875277, guid: 666ec3b7bb72c254495bd598576ab332,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 17.000023
+      objectReference: {fileID: 0}
+    - target: {fileID: 7117039938452875277, guid: 666ec3b7bb72c254495bd598576ab332,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 69.902565
+      objectReference: {fileID: 0}
+    - target: {fileID: 7117039938452875277, guid: 666ec3b7bb72c254495bd598576ab332,
+        type: 3}
+      propertyPath: m_Center.y
+      value: -8.951214
+      objectReference: {fileID: 0}
+    - target: {fileID: 7117039938452875277, guid: 666ec3b7bb72c254495bd598576ab332,
+        type: 3}
+      propertyPath: m_Center.z
+      value: 0.50006795
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 666ec3b7bb72c254495bd598576ab332, type: 3}

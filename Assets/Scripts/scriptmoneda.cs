@@ -5,12 +5,19 @@ using UnityEngine;
 public class scriptmoneda : MonoBehaviour
 {
     // Start is called before the first frame update
-    private void OnTriggerEnter(Collider Jugador)
+    public AudioSource source;
+    public AudioClip clip;
+    
+    void OnTriggerEnter(Collider col)
     {
-        if (Jugador.tag == "Jugador")
+        if (col.CompareTag("moneda"))
         {
-            Destroy(gameObject);
+            Destroy(col.gameObject);
+            source.PlayOneShot(clip);
         }
+        
+            
+        
     }
     void Start()
     {
