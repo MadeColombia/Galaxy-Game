@@ -10,7 +10,11 @@ public class SeguimientoCamara : MonoBehaviour
     [SerializeField] private float smoothness;
     void Update()
     {
-        transform.position = Vector3.Lerp(transform.position, jugador.transform.position + offset, smoothness);
+        if (jugador != null)
+        {
+            transform.position = Vector3.Lerp(transform.position, jugador.transform.position + offset, smoothness);
+        }
+        
 
     }
 }
