@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4000011301605272}
   - component: {fileID: 33000012946482194}
   - component: {fileID: 23000013129862066}
-  - component: {fileID: 6576628664766351148}
+  - component: {fileID: 616608600602485650}
   m_Layer: 0
   m_Name: FruitTree_1
   m_TagString: Untagged
@@ -80,7 +80,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &6576628664766351148
+--- !u!65 &616608600602485650
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -92,4 +92,4 @@ BoxCollider:
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 16, y: 27.000002, z: 10.000001}
-  m_Center: {x: 3.08, y: 13.500001, z: 2}
+  m_Center: {x: 3.5000005, y: 13.500001, z: 2}

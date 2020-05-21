@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4000013996515738}
   - component: {fileID: 33000011827470088}
   - component: {fileID: 23000014257042570}
-  - component: {fileID: 5182014023621953951}
+  - component: {fileID: -8599606296499510081}
   m_Layer: 0
   m_Name: FruitTree_3
   m_TagString: Untagged
@@ -80,7 +80,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &5182014023621953951
+--- !u!65 &-8599606296499510081
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
