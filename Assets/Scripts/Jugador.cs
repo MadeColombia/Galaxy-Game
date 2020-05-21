@@ -1,13 +1,15 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Jugador : MonoBehaviour
 {
     [SerializeField] private GeneradorTerreno generadorTerreno;
-
+    [SerializeField] private Text scoreText;
     private Animator animador;
     private bool saltando;
+    private int score;
     // Start is called before the first frame update
     void Start()
     {
@@ -15,8 +17,14 @@ public class Jugador : MonoBehaviour
     }
 
     // Update is called once per frame
+    private void FixedUpdate()
+    {
+
+        score++;
+    }
     void Update()
     {
+        scoreText.text = "Score:" + score;
         if (Input.GetKeyDown(KeyCode.W) && !saltando)
         {
             animador.SetTrigger("salto");
