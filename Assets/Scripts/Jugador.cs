@@ -17,11 +17,11 @@ public class Jugador : MonoBehaviour
     }
 
     // Update is called once per frame
-    private void FixedUpdate()
-    {
+    //private void FixedUpdate()
+    //{
 
-        score++;
-    }
+        
+    //}
     void Update()
     {
         scoreText.text = "Score:" + score;
@@ -36,6 +36,7 @@ public class Jugador : MonoBehaviour
             }
             Vector3 diferencia = new Vector3(1, 0, diferenciaZ);
             MoverPersonaje (diferencia);
+            score++;
         }
 
         else if (Input.GetKeyDown(KeyCode.A) && !saltando) 
