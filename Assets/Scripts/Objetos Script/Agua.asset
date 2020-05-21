@@ -12,5 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0bd25888077762409923994e8baf4a6, type: 3}
   m_Name: Agua
   m_EditorClassIdentifier: 
-  terreno: {fileID: 665609100047424723, guid: 47d00057bb5fa9747a4ea1b42d95591d, type: 3}
+  posibleTerreno:
+  - {fileID: 665609100047424723, guid: 47d00057bb5fa9747a4ea1b42d95591d, type: 3}
   maxEnFila: 3
