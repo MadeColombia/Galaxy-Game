@@ -51,6 +51,11 @@ public class Jugador : MonoBehaviour
             MoverPersonaje(new Vector3(0, 0, -1));
             transform.rotation = Quaternion.AngleAxis(180, new Vector3(0, 1, 0));
         }
+        else if (Input.GetKeyDown(KeyCode.S) && !saltando)
+        {
+            MoverPersonaje(new Vector3(-1, 0, 0));
+            transform.rotation = Quaternion.AngleAxis(-90, new Vector3(0, 1, 0));
+        }
     }
     private void MoverPersonaje(Vector3 diferencia) 
     {
@@ -63,5 +68,21 @@ public class Jugador : MonoBehaviour
     public void finSalto()
     {
         saltando = false;
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.collider.GetComponent<Tabla>() != null)
+        {
+            if (collision.collider.GetComponent<Tabla>().isTab)
+            {
+                transform.parent = collision.collider.transform;
+                
+            }
+        }
+        else
+        {
+            transform.parent = null;
+        }
     }
 }

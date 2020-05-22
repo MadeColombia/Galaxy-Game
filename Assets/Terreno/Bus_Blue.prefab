@@ -252,6 +252,8 @@ GameObject:
   - component: {fileID: 9063808159040624389}
   - component: {fileID: 9063808159041222177}
   - component: {fileID: 7905743530601275174}
+  - component: {fileID: 8627126313925830355}
+  - component: {fileID: 7740871502241458082}
   m_Layer: 0
   m_Name: Bus_Blue
   m_TagString: Untagged
@@ -339,6 +341,31 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   velocidad: 1
+--- !u!65 &8627126313925830355
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9063808159039541555}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.10349053, y: 0.024430007, z: 0.024721893}
+  m_Center: {x: -0.007471258, y: -0.0010645813, z: -0.000000010710212}
+--- !u!114 &7740871502241458082
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9063808159039541555}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c0fbb223a5d5a24491186aee341eef3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &9063808159039548069
 GameObject:
   m_ObjectHideFlags: 0

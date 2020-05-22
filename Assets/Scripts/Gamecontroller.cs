@@ -29,4 +29,6 @@ public class Gamecontroller : MonoBehaviour
             TextCoins.text = coinsString + coins.ToString();
         }
     }
+
+    
 }
