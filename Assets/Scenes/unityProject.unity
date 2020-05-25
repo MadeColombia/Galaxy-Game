@@ -259,7 +259,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1, y: 18}
+  m_AnchoredPosition: {x: 1, y: 0}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &327067001
@@ -896,6 +896,7 @@ GameObject:
   - component: {fileID: 727539853}
   - component: {fileID: 727539852}
   - component: {fileID: 727539854}
+  - component: {fileID: 727539855}
   m_Layer: 0
   m_Name: Gamecontroller
   m_TagString: Untagged
@@ -944,6 +945,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvas1: {fileID: 424668147}
+--- !u!114 &727539855
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 727539851}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 630fa705784983a44b52e547ac17106a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coinsString: 'High Score:'
+  TextCoins: {fileID: 327067001}
 --- !u!1 &807395616
 GameObject:
   m_ObjectHideFlags: 0
@@ -1841,8 +1856,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 114, y: -58}
-  m_SizeDelta: {x: 206.5, y: 93.04}
+  m_AnchoredPosition: {x: 108, y: -41}
+  m_SizeDelta: {x: 206.5, y: 66.24}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1562956644
 MonoBehaviour:
