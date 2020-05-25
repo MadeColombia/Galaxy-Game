@@ -13,6 +13,8 @@ public class GeneradorTerreno : MonoBehaviour
 
     public Vector3 pos;
     private List<GameObject> TerrenosActuales = new List<GameObject>();
+
+
     // Start is called before the first frame update
     void Start()
     {
