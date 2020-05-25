@@ -6,12 +6,15 @@ using UnityEngine.UI;
 public class Jugador : MonoBehaviour
 {
     [SerializeField] public GeneradorTerreno generadorTerreno;
-    //private GameObject empti = new GameObject();
+    //private GameObject m = new GameObject();
     
     [SerializeField] public Text scoreText;
     private Animator animador;
     private bool saltando;
     private int score;
+
+  
+
     // Start is called before the first frame update
     void Start()
     {
@@ -87,10 +90,11 @@ public class Jugador : MonoBehaviour
 
             if (collision.collider.GetComponent<Tabla>().isTab)
             {
-                
 
-                //transform.parent = collision.collider.transform;
+
+             
                 transform.SetParent(collision.collider.transform, true);
+                
 
 
 
