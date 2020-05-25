@@ -7,23 +7,26 @@ public class Jugador : MonoBehaviour
 {
     [SerializeField] public GeneradorTerreno generadorTerreno;
     //private GameObject empti = new GameObject();
-    
+
     [SerializeField] public Text scoreText;
+    [SerializeField] public Text recordScoreText;
     private Animator animador;
     private bool saltando;
     private int score;
+
     // Start is called before the first frame update
     void Start()
     {
         animador = GetComponent<Animator>();
-     
+        recordScoreText.text = PlayerPrefs.GetInt("PuntajeRecord", 0).ToString();
+
     }
 
     // Update is called once per frame
     //private void FixedUpdate()
     //{
 
-        
+
     //}
     private void Update()
     {
@@ -38,12 +41,18 @@ public class Jugador : MonoBehaviour
                 diferenciaZ = Mathf.RoundToInt(transform.position.z) - transform.position.z;
             }
             Vector3 diferencia = new Vector3(1, 0, diferenciaZ);
-            MoverPersonaje (diferencia);
+            MoverPersonaje(diferencia);
             transform.rotation = Quaternion.AngleAxis(90, new Vector3(0, 1, 0));
             score++;
+            if (score > PlayerPrefs.GetInt("PuntajeRecord", 0))
+            {
+                PlayerPrefs.SetInt("PuntajeRecord", score);
+                recordScoreText.text = score.ToString();
+            }
+
         }
 
-        else if (Input.GetKeyDown(KeyCode.A) && !saltando) 
+        else if (Input.GetKeyDown(KeyCode.A) && !saltando)
         {
             MoverPersonaje(new Vector3(0, 0, 1));
             transform.rotation = Quaternion.AngleAxis(0, new Vector3(0, 1, 0));
@@ -61,14 +70,20 @@ public class Jugador : MonoBehaviour
             score--;
         }
     }
-    public void MoverPersonaje(Vector3 diferencia) 
+    public void MoverPersonaje(Vector3 diferencia)
     {
         animador.SetTrigger("salto");
         saltando = true;
         transform.position = (transform.position + diferencia);
-        generadorTerreno.GenerarT(false,transform.position);
-        
-        
+        generadorTerreno.GenerarT(false, transform.position);
+
+
+    }
+
+    public void borrarDatosPuntaje()
+    {
+        PlayerPrefs.DeleteKey("PuntajeRecord");
+        recordScoreText.text = "0";
     }
 
     public void finSalto()
