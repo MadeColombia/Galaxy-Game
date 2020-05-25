@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class GeneradorVehiculos : MonoBehaviour
 {
-    [SerializeField] private GameObject vehiculo;
-    //[SerializeField] private List<GameObject> vehiculos= new List<GameObject>();
-    [SerializeField] private Transform posicionCreacion;
-    [SerializeField] private float minTiempoSeparacion;
-    [SerializeField] private float maxTiempoSeparacion;
-    [SerializeField] private bool LadoContrario;
+   // [SerializeField] private GameObject vehiculo;
+    [SerializeField] private List<GameObject> vehiculos= new List<GameObject>();
+    [SerializeField] public Transform posicionCreacion;
+    private float minTiempoSeparacion = 5f;
+    private float maxTiempoSeparacion = 10f;
+    [SerializeField] public bool LadoContrario;
     private void Start()
     {
         StartCoroutine(GenerarVehiculos());
@@ -17,14 +17,26 @@ public class GeneradorVehiculos : MonoBehaviour
 
     private IEnumerator GenerarVehiculos() 
     {
-        while (true) 
+        
+        while (true)
         {
+            
             yield return new WaitForSeconds(Random.Range(minTiempoSeparacion, maxTiempoSeparacion));
-            GameObject veh = Instantiate(vehiculo, posicionCreacion.position, Quaternion.identity);
-            if (!LadoContrario)
+            
+            
+
+            for (int i = 0; i < vehiculos.Count; i++)
             {
-                veh.transform.Rotate(new Vector3(0, 180, 0));
+                int queVehiculo = Random.Range(0, vehiculos.Count);
+                GameObject veh = Instantiate(vehiculos[queVehiculo], posicionCreacion.position, Quaternion.identity);
+                if (!LadoContrario)
+                {
+                    veh.transform.Rotate(new Vector3(0, 180, 0));
+                }
+
             }
+
+              
 
         }
        

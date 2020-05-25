@@ -121,11 +121,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0eb2767b2e41b87448396ec116dea0c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vehiculo: {fileID: 3112957426553688333, guid: 10cf04bd3f2e20648b841bae817636c2,
-    type: 3}
+  vehiculos:
+  - {fileID: 3112957426553688333, guid: 10cf04bd3f2e20648b841bae817636c2, type: 3}
   posicionCreacion: {fileID: 8091773761593477193}
-  minTiempoSeparacion: 5
-  maxTiempoSeparacion: 10
   LadoContrario: 0
 --- !u!1 &3290219854558813015
 GameObject:

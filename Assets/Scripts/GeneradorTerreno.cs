@@ -9,23 +9,24 @@ public class GeneradorTerreno : MonoBehaviour
     [SerializeField] private int mindistanciaDesdeJugador;
     [SerializeField] private List<TerrainData> infoTerreno = new List<TerrainData>();
     [SerializeField] private int LimiteTerreno;
-    [SerializeField] private Transform guardarTerreno;
+    [SerializeField] public Transform guardarTerreno;
 
     public Vector3 pos;
     private List<GameObject> TerrenosActuales = new List<GameObject>();
     // Start is called before the first frame update
     void Start()
     {
-        pos = new Vector3(0, 0, 0);
-        mindistanciaDesdeJugador = 15;
+        pos = new Vector3(2, 0, 0);
+        mindistanciaDesdeJugador = 20;
         
         for(int i =0; i< LimiteTerreno; i++)
         {
             GenerarT(true, new Vector3(0,0,0));
 
         }
-        LimiteTerreno = TerrenosActuales.Count;
-        
+        //LimiteTerreno = TerrenosActuales.Count;
+        LimiteTerreno = 20;
+
     }
 
     // Update is called once per frame

@@ -201,11 +201,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0eb2767b2e41b87448396ec116dea0c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vehiculo: {fileID: 9063808159039541555, guid: 602f4966ccb60a44eb3fdc48effcab2d,
-    type: 3}
+  vehiculos:
+  - {fileID: 9063808159039541555, guid: 602f4966ccb60a44eb3fdc48effcab2d, type: 3}
+  - {fileID: 129146, guid: 7179d797d92b9594482ec3e813202c51, type: 3}
+  - {fileID: 157538, guid: 8c211a32366f0534e81b8202e306210a, type: 3}
+  - {fileID: 193646, guid: 19c00265a4f7b43489bdceefa77c2092, type: 3}
+  - {fileID: 140570, guid: 9f14ffa559e6d214db9b0ec960921311, type: 3}
+  - {fileID: 186458, guid: 74b8b40c5d3c66c408d145d8c7c51c8b, type: 3}
+  - {fileID: 162266, guid: f07b089f2dede914a900c8e34e599f38, type: 3}
+  - {fileID: 140570, guid: af1ac63e97bac7443a056ef936b7d425, type: 3}
+  - {fileID: 157538, guid: 5971c6ba437546948a4b83194e7ddb2a, type: 3}
+  - {fileID: 129146, guid: 8f0fb4627eb4aed4f9ac1c0ec62fb2ff, type: 3}
   posicionCreacion: {fileID: 7061980875407839882}
-  minTiempoSeparacion: 3
-  maxTiempoSeparacion: 6
   LadoContrario: 1
 --- !u!1 &2031916754228987018
 GameObject:

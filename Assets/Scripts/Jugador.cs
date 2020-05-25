@@ -5,8 +5,10 @@ using UnityEngine.UI;
 
 public class Jugador : MonoBehaviour
 {
-    [SerializeField] private GeneradorTerreno generadorTerreno;
-    [SerializeField] private Text scoreText;
+    [SerializeField] public GeneradorTerreno generadorTerreno;
+    //private GameObject empti = new GameObject();
+    
+    [SerializeField] public Text scoreText;
     private Animator animador;
     private bool saltando;
     private int score;
@@ -14,6 +16,7 @@ public class Jugador : MonoBehaviour
     void Start()
     {
         animador = GetComponent<Animator>();
+     
     }
 
     // Update is called once per frame
@@ -22,7 +25,7 @@ public class Jugador : MonoBehaviour
 
         
     //}
-    void Update()
+    private void Update()
     {
         scoreText.text = "Score:" + score;
         if (Input.GetKeyDown(KeyCode.W) && !saltando)
@@ -55,34 +58,48 @@ public class Jugador : MonoBehaviour
         {
             MoverPersonaje(new Vector3(-1, 0, 0));
             transform.rotation = Quaternion.AngleAxis(-90, new Vector3(0, 1, 0));
+            score--;
         }
     }
-    private void MoverPersonaje(Vector3 diferencia) 
+    public void MoverPersonaje(Vector3 diferencia) 
     {
         animador.SetTrigger("salto");
         saltando = true;
         transform.position = (transform.position + diferencia);
         generadorTerreno.GenerarT(false,transform.position);
+        
+        
     }
 
     public void finSalto()
     {
         saltando = false;
+        
     }
 
-    private void OnCollisionEnter(Collision collision)
+    public void OnCollisionEnter(Collision collision)
     {
+        
         if (collision.collider.GetComponent<Tabla>() != null)
         {
+            
+            
+
             if (collision.collider.GetComponent<Tabla>().isTab)
             {
-                transform.parent = collision.collider.transform;
                 
+
+                //transform.parent = collision.collider.transform;
+                transform.SetParent(collision.collider.transform, true);
+
+
+
             }
         }
         else
         {
             transform.parent = null;
+            
         }
     }
 }

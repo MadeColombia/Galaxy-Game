@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Jugador
   - moneda
+  - CanvasS
+  - CanvasO
   layers:
   - Default
   - TransparentFX

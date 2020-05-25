@@ -5,9 +5,9 @@ using UnityEngine;
 
 public class SeguimientoCamara : MonoBehaviour
 {
-    [SerializeField] private GameObject jugador;
-    [SerializeField] private Vector3 offset;
-    [SerializeField] private float smoothness;
+    [SerializeField] public GameObject jugador;
+    [SerializeField] public Vector3 offset;
+    [SerializeField] public float smoothness;
     void Update()
     {
         if (jugador != null)

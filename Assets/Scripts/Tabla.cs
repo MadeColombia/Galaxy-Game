@@ -9,11 +9,12 @@ public class Tabla : MonoBehaviour
     private void Start()
     {
        
-        velocidad = Random.Range(2,3);
+        velocidad = Random.Range(2,4);
     }
     private void Update()
     {
         transform.Translate(Vector3.forward * velocidad * Time.deltaTime);
+        Object.Destroy(gameObject, 15f);
 
     }
 }
