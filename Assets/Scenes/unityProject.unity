@@ -972,7 +972,6 @@ GameObject:
   - component: {fileID: 807395617}
   - component: {fileID: 807395622}
   - component: {fileID: 807395621}
-  - component: {fileID: 807395618}
   m_Layer: 0
   m_Name: Jugador
   m_TagString: Player
@@ -999,19 +998,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!65 &807395618
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 807395616}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 2.08, z: 1}
-  m_Center: {x: -0.09, y: 0, z: 0}
 --- !u!114 &807395619
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1057,7 +1043,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 122
+  m_Constraints: 64
   m_CollisionDetection: 0
 --- !u!114 &807395622
 MonoBehaviour:
@@ -1073,6 +1059,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   source: {fileID: 478624975}
   clip: {fileID: 8300000, guid: b404b9871390bda45a2f7a8805f13810, type: 3}
+  Puntaje: 1
 --- !u!1001 &865199589
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1689,7 +1676,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.19, y: 1.8815241, z: 1.0000002}
+  m_Size: {x: 1, y: 1.8815241, z: 1.0000002}
   m_Center: {x: -0.08, y: -0.11076212, z: -1.6223934e-15}
 --- !u!23 &1354376019
 MeshRenderer:

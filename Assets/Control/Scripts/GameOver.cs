@@ -13,6 +13,7 @@ public class GameOver : MonoBehaviour
     {
 
         canvas2 = GameObject.FindWithTag("CanvasS");
+       
 
     }
     public void Update()
@@ -20,6 +21,7 @@ public class GameOver : MonoBehaviour
         if (canvas2.activeSelf.Equals(false))
         {
             canvas1.SetActive(true);
+            
         }
     }
     public void Restart()
@@ -27,6 +29,8 @@ public class GameOver : MonoBehaviour
        
 
         SceneManager.LoadScene("unityProject");
+        Gamecontroller.coins = 0;
+       
     }
 
     public void QuitToMain()

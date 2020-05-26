@@ -7,6 +7,7 @@ public class Gamecontroller : MonoBehaviour
 {
     // Start is called before the first frame update
     public static int coins = 0;
+    private int coinRestart = 0;
     public string coinsString = "Coins";
 
     public Text TextCoins;
@@ -33,7 +34,8 @@ public class Gamecontroller : MonoBehaviour
     public void Restart()
     {
         Restart();
-        TextCoins.text = coinsString + coins.ToString("0");
+        
+        TextCoins.text = coinsString + coins.ToString();
     }
 
 }

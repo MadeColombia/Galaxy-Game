@@ -5,10 +5,12 @@ using UnityEngine;
 public class agregarscore : MonoBehaviour
 {
     // Start is called before the first frame update
-    public int Puntaje = 1;
+    //public int Puntaje = 1;
     private void OnDestroy()
-    {
-        Gamecontroller.coins += Puntaje;
+   {
+       
+            //Gamecontroller.coins += Puntaje;
+        
     }
     void Start()
     {
