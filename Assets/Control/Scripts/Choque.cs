@@ -22,7 +22,7 @@ public class Choque : MonoBehaviour
 
     private void Update()
     {
-        
+        SeMurio = false; 
     }
 
     public bool getSeMurio()
@@ -35,7 +35,7 @@ public class Choque : MonoBehaviour
         
         if (collision.collider.GetComponent<Jugador>() != null)
         {
-           
+            SeMurio = true;
             Destroy(collision.gameObject);
             source.PlayOneShot(clip);
             GameOver();
@@ -50,6 +50,6 @@ public class Choque : MonoBehaviour
     {
          canvasS.SetActive(false);
 
-        SeMurio = true;
+        
     }
 }
