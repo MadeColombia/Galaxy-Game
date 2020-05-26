@@ -32,7 +32,7 @@ public class Gamecontroller : MonoBehaviour
 
     public void Restart()
     {
-        Restart();
+        
         TextCoins.text = coinsString + coins.ToString("0");
     }
 

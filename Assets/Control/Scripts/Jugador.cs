@@ -2,12 +2,18 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using System.IO;
 
 public class Jugador : MonoBehaviour
 {
     [SerializeField] public GeneradorTerreno generadorTerreno;
     //private GameObject m = new GameObject();
-    
+    private int i = 1;
+    private int j = 1;
+    private string tx;
+    private string tx2;
+    public agregarscore Puente;
+    public Choque C;
     [SerializeField] public Text scoreText;
     [SerializeField] public Text recordScoreText;
     private Animator animador;
@@ -21,6 +27,7 @@ public class Jugador : MonoBehaviour
     {
         animador = GetComponent<Animator>();
         recordScoreText.text = PlayerPrefs.GetInt("PuntajeRecord", 0).ToString();
+        
 
     }
 
@@ -46,13 +53,30 @@ public class Jugador : MonoBehaviour
             MoverPersonaje(diferencia);
             transform.rotation = Quaternion.AngleAxis(90, new Vector3(0, 1, 0));
             score++;
+            tx = "Puntaje =" + "" + score.ToString();
             if (score > PlayerPrefs.GetInt("PuntajeRecord", 0))
             {
                 PlayerPrefs.SetInt("PuntajeRecord", score);
                 recordScoreText.text = score.ToString();
+                tx2 = "Puntaje Record =" + "" + PlayerPrefs.GetInt("PuntajeRecord", 0);
+                
+
+            }
+            if (C.SeMurio == true)
+            {
+                Creartxt();
+                C.SeMurio = false;
+
+
             }
 
+            //Creartxt();
+
         }
+
+         
+
+        
 
         else if (Input.GetKeyDown(KeyCode.A) && !saltando)
         {
@@ -71,7 +95,14 @@ public class Jugador : MonoBehaviour
             transform.rotation = Quaternion.AngleAxis(-90, new Vector3(0, 1, 0));
             score--;
         }
+
+
+        
+
+
     }
+
+    
     public void MoverPersonaje(Vector3 diferencia)
     {
         animador.SetTrigger("salto");
@@ -93,6 +124,37 @@ public class Jugador : MonoBehaviour
         saltando = false;
         
     }
+
+
+      void Creartxt()
+    {
+       
+
+            //Path del texto
+            string path = Application.dataPath + "/Datos de Juego"+j+".txt";
+
+            //Crear file si no existe
+            if (!File.Exists(path))
+            {
+                File.WriteAllText(path, "Datos de Juego \n\n");
+            //j++;
+            
+            }
+
+            //Contenido del file 
+            string contenido = "Intento #" + i + ":" +"\n" + "" + tx + "\n" + tx2 + "\n\n";
+        // contenido = "Intento #" + i + "\n" + ":" + "" + tx + "\n" + tx2 + "\n" + Puente.tx3 + "\n\n";
+           i++;
+            //Poner el texto 
+            File.AppendAllText(path, contenido);
+        
+    }
+
+
+
+
+
+
 
     public void OnCollisionEnter(Collision collision)
     {
@@ -120,4 +182,5 @@ public class Jugador : MonoBehaviour
             
         }
     }
+
 }

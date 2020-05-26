@@ -13,11 +13,13 @@ public class GameOver : MonoBehaviour
     {
 
         canvas2 = GameObject.FindWithTag("CanvasS");
-
+        //canvas2 = GetComponent<GameObject>();
     }
     public void Update()
     {
-        if (canvas2.activeSelf.Equals(false))
+        bool act = canvas2.activeSelf ;
+        bool R = false;
+        if (act == R)    //canvas2.activeSelf.Equals(false)
         {
             canvas1.SetActive(true);
         }
