@@ -245,13 +245,15 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1421103000279367748}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a12e3c9d344bbbe42a3fb24697e4796c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   source: {fileID: 0}
   clip: {fileID: 0}
+  Puntaje: 1
+  textMonedas: {fileID: 0}
 --- !u!65 &1254941999938815106
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -277,7 +279,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b332b66d00cf42843a85c66622ef8975, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Puntaje: 1
 --- !u!1 &1421103000595619654
 GameObject:
   m_ObjectHideFlags: 0
@@ -444,13 +445,15 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1421103000802098738}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a12e3c9d344bbbe42a3fb24697e4796c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   source: {fileID: 0}
   clip: {fileID: 0}
+  Puntaje: 1
+  textMonedas: {fileID: 0}
 --- !u!65 &2839163365087397090
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -476,7 +479,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b332b66d00cf42843a85c66622ef8975, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Puntaje: 1
 --- !u!1 &1421103001184855220
 GameObject:
   m_ObjectHideFlags: 0
@@ -624,13 +626,15 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1421103001279603377}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a12e3c9d344bbbe42a3fb24697e4796c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   source: {fileID: 0}
   clip: {fileID: 0}
+  Puntaje: 1
+  textMonedas: {fileID: 0}
 --- !u!65 &8247425213788979595
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -656,7 +660,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b332b66d00cf42843a85c66622ef8975, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Puntaje: 1
 --- !u!1 &4224303922058572282
 GameObject:
   m_ObjectHideFlags: 0

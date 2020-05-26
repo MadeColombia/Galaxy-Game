@@ -103,7 +103,6 @@ GameObject:
   m_Component:
   - component: {fileID: 3478521750199812738}
   - component: {fileID: 3478521750199812861}
-  - component: {fileID: 2212371047703127730}
   - component: {fileID: 7232643618011994724}
   - component: {fileID: 1877645297802499940}
   m_Layer: 0
@@ -140,20 +139,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e31c9c5ab077c048b58b0d3712837ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &2212371047703127730
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3478521750199812739}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a12e3c9d344bbbe42a3fb24697e4796c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  source: {fileID: 0}
-  clip: {fileID: 0}
 --- !u!65 &7232643618011994724
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -179,7 +164,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b332b66d00cf42843a85c66622ef8975, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Puntaje: 1
 --- !u!1 &3478521750669084221
 GameObject:
   m_ObjectHideFlags: 0
@@ -269,7 +253,6 @@ GameObject:
   m_Component:
   - component: {fileID: 3478521750865849809}
   - component: {fileID: 3478521750865849808}
-  - component: {fileID: 7879974809844153709}
   - component: {fileID: 50946904696841684}
   - component: {fileID: 5168975487915572955}
   m_Layer: 0
@@ -306,20 +289,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e31c9c5ab077c048b58b0d3712837ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &7879974809844153709
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3478521750865849814}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a12e3c9d344bbbe42a3fb24697e4796c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  source: {fileID: 0}
-  clip: {fileID: 0}
 --- !u!65 &50946904696841684
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -345,7 +314,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b332b66d00cf42843a85c66622ef8975, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Puntaje: 1
 --- !u!1 &3478521750924883434
 GameObject:
   m_ObjectHideFlags: 0
@@ -356,7 +324,6 @@ GameObject:
   m_Component:
   - component: {fileID: 3478521750924883429}
   - component: {fileID: 3478521750924883428}
-  - component: {fileID: 4504405747737095553}
   - component: {fileID: 4716942508129045767}
   - component: {fileID: 6632975549634848326}
   m_Layer: 0
@@ -393,20 +360,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e31c9c5ab077c048b58b0d3712837ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &4504405747737095553
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3478521750924883434}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a12e3c9d344bbbe42a3fb24697e4796c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  source: {fileID: 0}
-  clip: {fileID: 0}
 --- !u!65 &4716942508129045767
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -432,7 +385,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b332b66d00cf42843a85c66622ef8975, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Puntaje: 1
 --- !u!1 &3478521751016814434
 GameObject:
   m_ObjectHideFlags: 0

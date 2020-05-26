@@ -8,6 +8,7 @@ TagManager:
   - moneda
   - CanvasS
   - CanvasO
+  - monedas
   layers:
   - Default
   - TransparentFX

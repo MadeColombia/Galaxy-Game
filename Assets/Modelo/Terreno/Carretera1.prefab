@@ -12,7 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b332b66d00cf42843a85c66622ef8975, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Puntaje: 1
 --- !u!114 &8814997274656206094
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25,7 +24,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b332b66d00cf42843a85c66622ef8975, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Puntaje: 1
 --- !u!1 &8250886582217684376
 GameObject:
   m_ObjectHideFlags: 0
@@ -37,7 +35,7 @@ GameObject:
   - component: {fileID: 8250886582217684377}
   m_Layer: 0
   m_Name: Coins
-  m_TagString: moneda
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -97,6 +95,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8250886582217684377}
     m_Modifications:
+    - target: {fileID: 2743471023655196305, guid: 8dfb851be7189f744b46d3bc547b91d3,
+        type: 3}
+      propertyPath: m_TagString
+      value: monedas
+      objectReference: {fileID: 0}
     - target: {fileID: 4631344372026540319, guid: 8dfb851be7189f744b46d3bc547b91d3,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -157,7 +160,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coins
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 9019614610397910266, guid: 8dfb851be7189f744b46d3bc547b91d3,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 9019614610397910266, guid: 8dfb851be7189f744b46d3bc547b91d3, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 8dfb851be7189f744b46d3bc547b91d3, type: 3}
 --- !u!1 &333133684526471877 stripped
 GameObject:
@@ -178,6 +187,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8250886582217684377}
     m_Modifications:
+    - target: {fileID: 2743471023655196305, guid: 8dfb851be7189f744b46d3bc547b91d3,
+        type: 3}
+      propertyPath: m_TagString
+      value: monedas
+      objectReference: {fileID: 0}
     - target: {fileID: 4631344372026540319, guid: 8dfb851be7189f744b46d3bc547b91d3,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -238,7 +252,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coins (1)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 9019614610397910266, guid: 8dfb851be7189f744b46d3bc547b91d3,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 9019614610397910266, guid: 8dfb851be7189f744b46d3bc547b91d3, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 8dfb851be7189f744b46d3bc547b91d3, type: 3}
 --- !u!1 &333133684029731421 stripped
 GameObject:
