@@ -27,7 +27,7 @@ public class GeneradorTerreno : MonoBehaviour
 
         }
         //LimiteTerreno = TerrenosActuales.Count;
-        LimiteTerreno = 20;
+        LimiteTerreno = 50;
 
     }
 

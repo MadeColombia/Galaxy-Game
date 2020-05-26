@@ -6,33 +6,33 @@ using UnityEngine.SceneManagement;
 public class GameOver : MonoBehaviour
 {
     public GameObject canvas1;
-    public GameObject canvas2;
-    public GameObject jugador;
+    private GameObject canvas2;
+   // public GameObject jugador;
     // string Menu;
     private void Start()
     {
-        canvas1.CompareTag("CanvasO");
-        canvas2.CompareTag("CanvasS");
-        jugador.CompareTag("Player");
+
+        canvas2 = GameObject.FindWithTag("CanvasS");
+
     }
     public void Update()
     {
-        if (jugador = null)
+        if (canvas2.activeSelf.Equals(false))
         {
             canvas1.SetActive(true);
-            canvas2.SetActive(false);
         }
     }
     public void Restart()
     {
-        
-        
+       
+
+        SceneManager.LoadScene("unityProject");
     }
 
     public void QuitToMain()
     {
-       
-        //Application.LoadLevel(Menu);
+
+        SceneManager.LoadScene("menu"); 
     }
 
 }

@@ -203,7 +203,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   vehiculos:
   - {fileID: 9063808159039541555, guid: 602f4966ccb60a44eb3fdc48effcab2d, type: 3}
-  - {fileID: 129146, guid: 7179d797d92b9594482ec3e813202c51, type: 3}
+  - {fileID: 116448, guid: 3bbfd36332111ca4583206b5397b1018, type: 3}
   - {fileID: 157538, guid: 8c211a32366f0534e81b8202e306210a, type: 3}
   - {fileID: 193646, guid: 19c00265a4f7b43489bdceefa77c2092, type: 3}
   - {fileID: 140570, guid: 9f14ffa559e6d214db9b0ec960921311, type: 3}

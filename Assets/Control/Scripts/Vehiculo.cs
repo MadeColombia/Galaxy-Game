@@ -11,7 +11,7 @@ public class Vehiculo : MonoBehaviour
     private void Start()
     {
         transform.Rotate(0, -90, 0);
-        velocidad = Random.Range(2,3);
+        velocidad = Random.Range(2,5);
     }
     private void Update()
     {
