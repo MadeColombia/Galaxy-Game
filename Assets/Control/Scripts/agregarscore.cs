@@ -8,11 +8,11 @@ public class agregarscore : MonoBehaviour
     private int Puntaje = 1;
     
     public string tx3;
-    private void OnDestroy()
+   /* private void OnDestroy()
     {
         Gamecontroller.coins += Puntaje;
         tx3 = "Monedas recogidas ="+ ""+ Gamecontroller.coins.ToString();
-    }
+    }*/
     void Start()
     {
         

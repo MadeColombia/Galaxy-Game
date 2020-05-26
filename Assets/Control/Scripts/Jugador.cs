@@ -126,7 +126,7 @@ public class Jugador : MonoBehaviour
     }
 
 
-      void Creartxt()
+     public void Creartxt()
     {
        
 
