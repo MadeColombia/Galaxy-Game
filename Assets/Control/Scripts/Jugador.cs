@@ -19,6 +19,7 @@ public class Jugador : MonoBehaviour
     private Animator animador;
     private bool saltando;
     private int score;
+    
 
   
 
@@ -62,12 +63,18 @@ public class Jugador : MonoBehaviour
                 
 
             }
-            if (C.SeMurio == true)
+            if (C.getSeMurio() == true)
             {
+
+                Debug.Log("Este es el dato de C"+ C.ToString());
                 Creartxt();
                 C.SeMurio = false;
 
 
+            }
+            else
+            {
+                Debug.Log("No Murio");
             }
 
             //Creartxt();
