@@ -7,39 +7,37 @@ public class Choque : MonoBehaviour
 {
    
     private GameObject canvasS;
-    public bool SeMurio;
+    //public bool SeMurio;
     public AudioSource source;
     public AudioClip clip;
+   
     // Start is called before the first frame update
 
-    private void Start()
+    public void Start()
     {
 
         canvasS = GameObject.FindWithTag("CanvasS");
-        
-       SeMurio = false;
+       
     }
 
     private void Update()
     {
-        SeMurio = false; 
+        
     }
 
-    public bool getSeMurio()
-    {
-        return SeMurio;
-    }
+   
 
     public void OnCollisionEnter(Collision collision)
     {
         
+
         if (collision.collider.GetComponent<Jugador>() != null)
         {
-            SeMurio = true;
+            
             Destroy(collision.gameObject);
             source.PlayOneShot(clip);
             GameOver();
-           
+            
 
         }
 
@@ -49,7 +47,7 @@ public class Choque : MonoBehaviour
     public void GameOver()
     {
          canvasS.SetActive(false);
+       
 
-        
     }
 }

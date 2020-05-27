@@ -184,7 +184,9 @@ MonoBehaviour:
     MOVER A LA IZQUIERDA
     "A"
 
-    MOVER A LA DERECHA "D"'
+    MOVER A LA DERECHA "D"
+
+    MOVER HACIA ATRAS "S"'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
   m_sharedMaterial: {fileID: 2140032, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
@@ -229,7 +231,7 @@ MonoBehaviour:
   m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
-  m_firstOverflowCharacterIndex: -1
+  m_firstOverflowCharacterIndex: 93
   m_linkedTextComponent: {fileID: 0}
   m_isLinkedTextComponent: 0
   m_isTextTruncated: 0
@@ -253,12 +255,12 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 21334261}
-    characterCount: 92
+    characterCount: 114
     spriteCount: 0
-    spaceCount: 16
-    wordCount: 17
+    spaceCount: 20
+    wordCount: 21
     linkCount: 0
-    lineCount: 4
+    lineCount: 5
     pageCount: 1
     materialCount: 1
   m_isUsingLegacyAnimationComponent: 0
@@ -1528,7 +1530,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 11.168976, y: -94.1537}
+  m_AnchoredPosition: {x: 11.168976, y: -121}
   m_SizeDelta: {x: 162.98798, y: 31.478401}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1519639939

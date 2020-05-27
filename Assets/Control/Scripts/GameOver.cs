@@ -7,24 +7,43 @@ public class GameOver : MonoBehaviour
 {
     public GameObject canvas1;
     private GameObject canvas2;
-   // public GameObject jugador;
+    
+    public Gamecontroller JOP;
+    // public GameObject jugador;
     // string Menu;
     private void Start()
     {
 
         canvas2 = GameObject.FindWithTag("CanvasS");
-       
+        
+        JOP = GetComponent<Gamecontroller>();
 
     }
     public void Update()
     {
-        bool act = canvas2.activeSelf ;
+        bool A = canvas2.activeSelf;
         bool R = false;
-        if (act == R)    //canvas2.activeSelf.Equals(false)
+        if (A == R)    //canvas2.activeSelf.Equals(false)
         {
-            canvas1.SetActive(true);
             
+            
+            
+            canvas1.SetActive(true);
+
         }
+        if (canvas1.activeSelf)
+        {
+            JOP.Creartxt();
+            Debug.Log("Se envio");
+        }
+
+    }
+
+
+    public void AbrirCanvas()
+    {
+       
+
     }
     public void Restart()
     {
