@@ -313,7 +313,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a1fe13ac62bb5a4983db358ac0a1a28, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  J1: {fileID: 807395616}
 --- !u!1 &424668147
 GameObject:
   m_ObjectHideFlags: 0
@@ -1005,7 +1004,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coinsString: 'Coins:'
+  Texto2: []
+  Texto3: 
   TextCoins: {fileID: 2120760884}
+  canvas: {fileID: 1589591936}
 --- !u!4 &727539853
 Transform:
   m_ObjectHideFlags: 0
@@ -1033,6 +1035,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvas1: {fileID: 424668147}
+  JOP: {fileID: 0}
 --- !u!114 &727539855
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1046,7 +1049,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coinsString: 'High Score:'
+  Texto2: []
+  Texto3: 
   TextCoins: {fileID: 0}
+  canvas: {fileID: 1589591936}
 --- !u!1 &807395616
 GameObject:
   m_ObjectHideFlags: 0
@@ -1113,8 +1119,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   generadorTerreno: {fileID: 1849030724}
+  T1: {fileID: 0}
   Puente: {fileID: 0}
-  C: {fileID: 0}
   scoreText: {fileID: 886650962}
   recordScoreText: {fileID: 590668306}
   jugador: {fileID: 0}
@@ -1498,6 +1504,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvas1: {fileID: 424668147}
+  JOP: {fileID: 0}
 --- !u!1 &1060019619
 GameObject:
   m_ObjectHideFlags: 0
@@ -2898,7 +2905,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c0fbb223a5d5a24491186aee341eef3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SeMurio: 0
   source: {fileID: 478624975}
   clip: {fileID: 8300000, guid: 851706d536c72fb4eb38e04e3825085e, type: 3}
 --- !u!1 &2006377602

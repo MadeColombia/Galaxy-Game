@@ -18,11 +18,11 @@ public class Jugador : MonoBehaviour
     [SerializeField] public Text recordScoreText;
     private Animator animador;
     private bool saltando;
-    private int score;
+    public static int score;
     public GameObject jugador;
-    
+    static public string record;
 
-  
+
 
     // Start is called before the first frame update
     void Start()
@@ -30,7 +30,7 @@ public class Jugador : MonoBehaviour
         animador = GetComponent<Animator>();
         recordScoreText.text = PlayerPrefs.GetInt("PuntajeRecord", 0).ToString();
         T1 = GetComponent<Gamecontroller>();
-
+        
 
 
     }
@@ -61,7 +61,7 @@ public class Jugador : MonoBehaviour
             string puntaje = "Puntaje =" + "" + score.ToString();
             
             //T1.Texto1.Add(puntaje);
-            T1.Texto1.Push(puntaje);
+            //T1.Texto1.Push(puntaje);
             
 
             //PlayerPrefs.SetString("tx",tx);
@@ -70,8 +70,8 @@ public class Jugador : MonoBehaviour
             {
                 PlayerPrefs.SetInt("PuntajeRecord", score);
                 recordScoreText.text = score.ToString();
-                string record = "Puntaje Record =" + "" + PlayerPrefs.GetInt("PuntajeRecord",score);
-                T1.Texto2.Add(record);
+                 record = "Puntaje Record =" + "" + PlayerPrefs.GetInt("PuntajeRecord",score);
+                //T1.Texto2.Add(record);
                 
 
             }

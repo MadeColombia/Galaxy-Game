@@ -1,1382 +1,498 @@
 Datos de Juego 
 
 Intento #1:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
+Score:9
+High Score:9
+Coins totales =3
 Intento #2:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
+Score:9
+High Score:9
+Coins totales =3
+Intento #1:
+Score:9
+High Score:9
 
 Intento #3:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
+Score:9
+High Score:9
+Coins totales =3
 Intento #4:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
+Score:9
+High Score:9
+Coins totales =3
 Intento #5:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
+Score:9
+High Score:9
+Coins totales =3
 Intento #6:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
+Score:9
+High Score:9
+Coins totales =3
 Intento #7:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
+Score:9
+High Score:9
+Coins totales =3
 Intento #8:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
+Score:9
+High Score:9
+Coins totales =3
 Intento #9:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
+Score:9
+High Score:9
+Coins totales =3
 Intento #10:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
+Score:9
+High Score:9
+Coins totales =3
 Intento #11:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
+Score:9
+High Score:9
+Coins totales =3
 Intento #12:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
+Score:9
+High Score:9
+Coins totales =3
 Intento #13:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
+Score:9
+High Score:9
+Coins totales =3
 Intento #14:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
+Score:9
+High Score:9
+Coins totales =3
 Intento #15:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
+Score:9
+High Score:9
+Coins totales =3
 Intento #16:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
+Score:9
+High Score:9
+Coins totales =3
 Intento #17:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
+Score:9
+High Score:9
+Coins totales =3
 Intento #18:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
+Score:9
+High Score:9
+Coins totales =3
 Intento #19:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
+Score:9
+High Score:9
+Coins totales =3
 Intento #20:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
+Score:9
+High Score:9
+Coins totales =3
 Intento #21:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
+Score:9
+High Score:9
+Coins totales =3
 Intento #22:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
+Score:9
+High Score:9
+Coins totales =3
 Intento #23:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
+Score:9
+High Score:9
+Coins totales =3
 Intento #24:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
+Score:9
+High Score:9
+Coins totales =3
 Intento #25:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
+Score:9
+High Score:9
+Coins totales =3
 Intento #26:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
+Score:9
+High Score:9
+Coins totales =3
 Intento #27:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
+Score:9
+High Score:9
+Coins totales =3
 Intento #28:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
+Score:9
+High Score:9
+Coins totales =3
 Intento #29:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
+Score:9
+High Score:9
+Coins totales =3
 Intento #30:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
+Score:9
+High Score:9
+Coins totales =3
 Intento #31:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
+Score:9
+High Score:9
+Coins totales =3
 Intento #32:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
+Score:9
+High Score:9
+Coins totales =3
 Intento #33:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
+Score:9
+High Score:9
+Coins totales =3
 Intento #34:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
+Score:9
+High Score:9
+Coins totales =3
 Intento #35:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
+Score:9
+High Score:9
+Coins totales =3
 Intento #36:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
+Score:9
+High Score:9
+Coins totales =3
 Intento #37:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
+Score:9
+High Score:9
+Coins totales =3
 Intento #38:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
+Score:9
+High Score:9
+Coins totales =3
 Intento #39:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
+Score:9
+High Score:9
+Coins totales =3
 Intento #40:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
+Score:9
+High Score:9
+Coins totales =3
 Intento #41:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
+Score:9
+High Score:9
+Coins totales =3
 Intento #42:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
+Score:9
+High Score:9
+Coins totales =3
 Intento #43:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
+Score:9
+High Score:9
+Coins totales =3
 Intento #44:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
+Score:9
+High Score:9
+Coins totales =3
 Intento #45:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
+Score:9
+High Score:9
+Coins totales =3
 Intento #46:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
+Score:9
+High Score:9
+Coins totales =3
 Intento #47:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
+Score:9
+High Score:9
+Coins totales =3
 Intento #48:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
+Score:9
+High Score:9
+Coins totales =3
 Intento #49:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
+Score:9
+High Score:9
+Coins totales =3
 Intento #50:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
+Score:9
+High Score:9
+Coins totales =3
 Intento #51:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
+Score:9
+High Score:9
+Coins totales =3
 Intento #52:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
+Score:9
+High Score:9
+Coins totales =3
 Intento #53:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
+Score:9
+High Score:9
+Coins totales =3
 Intento #54:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
+Score:9
+High Score:9
+Coins totales =3
 Intento #55:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
+Score:9
+High Score:9
+Coins totales =3
 Intento #56:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
+Score:9
+High Score:9
+Coins totales =3
 Intento #57:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
+Score:9
+High Score:9
+Coins totales =3
 Intento #58:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
+Score:9
+High Score:9
+Coins totales =3
 Intento #59:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
+Score:9
+High Score:9
+Coins totales =3
 Intento #60:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
+Score:9
+High Score:9
+Coins totales =3
 Intento #61:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
+Score:9
+High Score:9
+Coins totales =3
 Intento #62:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
+Score:9
+High Score:9
+Coins totales =3
 Intento #63:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
+Score:9
+High Score:9
+Coins totales =3
 Intento #64:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
+Score:9
+High Score:9
+Coins totales =3
 Intento #65:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
+Score:9
+High Score:9
+Coins totales =3
 Intento #66:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
+Score:9
+High Score:9
+Coins totales =3
 Intento #67:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
+Score:9
+High Score:9
+Coins totales =3
 Intento #68:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
+Score:9
+High Score:9
+Coins totales =3
 Intento #69:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
+Score:9
+High Score:9
+Coins totales =3
 Intento #70:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
+Score:9
+High Score:9
+Coins totales =3
 Intento #71:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
+Score:9
+High Score:9
+Coins totales =3
 Intento #72:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
+Score:9
+High Score:9
+Coins totales =3
 Intento #73:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
+Score:9
+High Score:9
+Coins totales =3
 Intento #74:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
+Score:9
+High Score:9
+Coins totales =3
 Intento #75:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
+Score:9
+High Score:9
+Coins totales =3
 Intento #76:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
+Score:9
+High Score:9
+Coins totales =3
 Intento #77:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
+Score:9
+High Score:9
+Coins totales =3
 Intento #78:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
+Score:9
+High Score:9
+Coins totales =3
 Intento #79:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
+Score:9
+High Score:9
+Coins totales =3
 Intento #80:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
+Score:9
+High Score:9
+Coins totales =3
 Intento #81:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
+Score:9
+High Score:9
+Coins totales =3
 Intento #82:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
+Score:9
+High Score:9
+Coins totales =3
 Intento #83:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
+Score:9
+High Score:9
+Coins totales =3
 Intento #84:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
+Score:9
+High Score:9
+Coins totales =3
 Intento #85:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
+Score:9
+High Score:9
+Coins totales =3
 Intento #86:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
+Score:9
+High Score:9
+Coins totales =3
 Intento #87:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
+Score:9
+High Score:9
+Coins totales =3
 Intento #88:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
+Score:9
+High Score:9
+Coins totales =3
 Intento #89:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
+Score:9
+High Score:9
+Coins totales =3
 Intento #90:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
+Score:9
+High Score:9
+Coins totales =3
 Intento #91:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
+Score:9
+High Score:9
+Coins totales =3
 Intento #92:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
+Score:9
+High Score:9
+Coins totales =3
 Intento #93:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
+Score:9
+High Score:9
+Coins totales =3
 Intento #94:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
+Score:9
+High Score:9
+Coins totales =3
 Intento #95:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
+Score:9
+High Score:9
+Coins totales =3
 Intento #96:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
+Score:9
+High Score:9
+Coins totales =3
 Intento #97:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
+Score:9
+High Score:9
+Coins totales =3
 Intento #98:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
+Score:9
+High Score:9
+Coins totales =3
 Intento #99:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
+Score:9
+High Score:9
+Coins totales =3
 Intento #100:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
+Score:9
+High Score:9
+Coins totales =3
 Intento #101:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
+Score:9
+High Score:9
+Coins totales =3
 Intento #102:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
+Score:9
+High Score:9
+Coins totales =3
 Intento #103:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
+Score:9
+High Score:9
+Coins totales =3
 Intento #104:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
+Score:9
+High Score:9
+Coins totales =3
 Intento #105:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
+Score:9
+High Score:9
+Coins totales =3
 Intento #106:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
+Score:9
+High Score:9
+Coins totales =3
 Intento #107:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
+Score:9
+High Score:9
+Coins totales =3
 Intento #108:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
+Score:9
+High Score:9
+Coins totales =3
 Intento #109:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
+Score:9
+High Score:9
+Coins totales =3
 Intento #110:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
+Score:9
+High Score:9
+Coins totales =3
 Intento #111:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
+Score:9
+High Score:9
+Coins totales =3
 Intento #112:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
+Score:9
+High Score:9
+Coins totales =3
 Intento #113:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
+Score:9
+High Score:9
+Coins totales =3
 Intento #114:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
+Score:9
+High Score:9
+Coins totales =3
 Intento #115:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
+Score:9
+High Score:9
+Coins totales =3
 Intento #116:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
+Score:9
+High Score:9
+Coins totales =3
 Intento #117:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
+Score:9
+High Score:9
+Coins totales =3
 Intento #118:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
+Score:9
+High Score:9
+Coins totales =3
 Intento #119:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
+Score:9
+High Score:9
+Coins totales =3
 Intento #120:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
+Score:9
+High Score:9
+Coins totales =3
 Intento #121:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
+Score:9
+High Score:9
+Coins totales =3
 Intento #122:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
+Score:9
+High Score:9
+Coins totales =3
 Intento #123:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
-Intento #124:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
-Intento #125:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
-Intento #126:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
-Intento #127:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
-Intento #128:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
-Intento #129:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
-Intento #130:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
-Intento #131:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
-Intento #132:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
-Intento #133:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
-Intento #134:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
-Intento #135:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
-Intento #136:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
-Intento #137:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
-Intento #138:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
-Intento #139:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
-Intento #140:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
-Intento #141:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
-Intento #142:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
-Intento #143:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
-Intento #144:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
-Intento #145:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
-Intento #146:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
-Intento #147:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
-Intento #148:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
-Intento #149:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
-Intento #150:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
-Intento #151:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
-Intento #152:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
-Intento #153:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
-Intento #154:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
-Intento #155:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
-Intento #156:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
-Intento #157:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
-Intento #158:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
-Intento #159:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
-Intento #160:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
-Intento #161:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
-Intento #162:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
-Intento #163:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
-Intento #164:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
-Intento #165:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
-Intento #166:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
-Intento #167:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
-Intento #168:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
-Intento #169:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
-Intento #170:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
-Intento #171:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
-Intento #172:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
-Intento #173:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
-Intento #174:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
-Intento #175:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
-Intento #176:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
-Intento #177:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
-Intento #178:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
-Intento #179:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
-Intento #180:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
-Intento #181:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
-Intento #182:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
-Intento #183:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
-Intento #184:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
-Intento #185:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
-Intento #186:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
-Intento #187:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
-Intento #188:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
-Intento #189:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
-Intento #190:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
-Intento #191:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
-Intento #192:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
-Intento #193:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
-Intento #194:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
-Intento #195:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
-Intento #196:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
-Intento #197:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
-Intento #198:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
-Intento #199:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
-Intento #200:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
-Intento #201:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
-Intento #202:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
-Intento #203:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
-Intento #204:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
-Intento #205:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
-Intento #206:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
-Intento #207:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
-Intento #208:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
-Intento #209:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
-Intento #210:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
-Intento #211:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
-Intento #212:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
-Intento #213:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
-Intento #214:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
-Intento #215:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
-Intento #216:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
-Intento #217:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
-Intento #218:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
-Intento #219:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
-Intento #220:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
-Intento #221:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
-Intento #222:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
-Intento #223:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
-Intento #224:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
-Intento #225:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
-Intento #226:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
-Intento #227:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
-Intento #228:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
-Intento #229:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
-Intento #230:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
-Intento #231:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
-Intento #232:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
-Intento #233:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
-Intento #234:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
-Intento #235:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
-Intento #236:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
-Intento #237:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
-Intento #238:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
-Intento #239:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
-Intento #240:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
-Intento #241:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
-Intento #242:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
-Intento #243:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
-Intento #244:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
-Intento #245:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
-Intento #246:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
-Intento #247:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
-Intento #248:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
-Intento #249:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
-Intento #250:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
-Intento #251:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
-Intento #252:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
-Intento #253:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
-Intento #254:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
-Intento #255:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
-Intento #256:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
-Intento #257:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
-Intento #258:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
-Intento #259:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
-Intento #260:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
-Intento #261:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
-Intento #262:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
-Intento #263:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
-Intento #264:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
-Intento #265:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
-Intento #266:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
-Intento #267:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
-Intento #268:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
-Intento #269:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
-Intento #270:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
-Intento #271:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
-Intento #272:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
-Intento #273:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
-Intento #274:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
-Intento #275:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
-Intento #276:
-System.Collections.Generic.Stack`1[System.String]
-False
-Coins totales =1
-
+Score:9
+High Score:9
+Coins totales =3

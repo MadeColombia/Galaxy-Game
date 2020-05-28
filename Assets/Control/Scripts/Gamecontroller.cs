@@ -4,6 +4,7 @@ using System.IO;
 using UnityEngine;
 using System.Linq;
 using UnityEngine.UI;
+using UnityEngine.SocialPlatforms.Impl;
 
 public class Gamecontroller : MonoBehaviour
 {
@@ -11,19 +12,22 @@ public class Gamecontroller : MonoBehaviour
     public static int coins = 0;
     private int i = 1;
     public string coinsString = "Coins";
-    //public string Texto1;
+   // public string Texto1;
     //public string Texto2;
-    public Stack<string> Texto1 = new Stack<string>();
+    
     public List<string> Texto2 = new List<string>();
     public string Texto3;
     public Text TextCoins;
     public static Gamecontroller gamecontroller;
+    public GameObject canvas;
+    private bool creado;
+    
 
     
     void Start()
     {
-        
 
+        creado = false;
     }
 
     // Update is called once per frame
@@ -34,6 +38,18 @@ public class Gamecontroller : MonoBehaviour
             TextCoins.text = coinsString + coins.ToString();
             Texto3 = "Coins totales =" + ""+ coins.ToString();
         }
+
+        if (canvas.activeSelf == false && creado == false)
+        {
+            creado = true;
+            Creartxt();
+            //Texto1.Push(jugador.scoreText.text);
+            Texto2.Add(Jugador.score+"");
+            //Debug.Log(Jugador.score + "");
+
+        }
+
+
     }
 
     public void Restart()
@@ -58,13 +74,18 @@ public class Gamecontroller : MonoBehaviour
         }
 
         //Contenido del file 
-        string contenido = "Intento #" + i + ":" + "\n" + Texto1.ToString() + "\n" + Texto2.Contains(ToString()) +"\n"+ Texto3 + "\n\n";
-        // contenido = "Intento #" + i + "\n" + ":" + "" + tx + "\n" + tx2 + "\n" + Puente.tx3 + "\n\n";
-        i++;
-        //Poner el texto 
-        File.AppendAllText(path, contenido);
+     
+            string contenido = "Intento #" + i + ":" + "\n" + "Score:" + Jugador.score + "\n" + "High Score:" + PlayerPrefs.GetInt("PuntajeRecord", Jugador.score) + "\n" + "" + Texto3 + "\n";
+            //Poner el texto 
+            File.AppendAllText(path, contenido);
+            i++;
+       
+        
 
     }
+
+    
+    
 
 }
         

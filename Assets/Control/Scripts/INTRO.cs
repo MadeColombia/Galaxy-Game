@@ -7,7 +7,7 @@ using UnityEngine.VFX;
 public class INTRO : MonoBehaviour
 {
 
-    public GameObject J1;
+    //public GameObject J1;
     //Vector3 v = new Vector3(1, 0, 0);
     // Start is called before the first frame update
     void Start()
@@ -19,6 +19,7 @@ public class INTRO : MonoBehaviour
     void Update()
     {
         Object.Destroy(gameObject, 10f);
+        
         if (Input.GetKeyDown(KeyCode.W))
         {
             Object.Destroy(gameObject, 0f);
