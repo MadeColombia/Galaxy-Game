@@ -10,6 +10,7 @@ public class Choque : MonoBehaviour
     //public bool SeMurio;
     public AudioSource source;
     public AudioClip clip;
+    
    
     // Start is called before the first frame update
 
@@ -47,6 +48,7 @@ public class Choque : MonoBehaviour
     public void GameOver()
     {
          canvasS.SetActive(false);
+        
        
 
     }

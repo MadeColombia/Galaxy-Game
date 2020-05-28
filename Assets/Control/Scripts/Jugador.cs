@@ -13,7 +13,7 @@ public class Jugador : MonoBehaviour
     // private int j = 1;
     public Gamecontroller T1;
     [SerializeField] public agregarscore Puente;
-   
+
     [SerializeField] public Text scoreText;
     [SerializeField] public Text recordScoreText;
     private Animator animador;
@@ -45,6 +45,7 @@ public class Jugador : MonoBehaviour
     {
         
         scoreText.text = "Score:" + score;
+        
         if (Input.GetKeyDown(KeyCode.W) && !saltando)
         {
             animador.SetTrigger("salto");

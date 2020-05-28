@@ -10,7 +10,7 @@ public class Gamecontroller : MonoBehaviour
 {
     // Start is called before the first frame update
     public static int coins = 0;
-    private int i = 1;
+    //public int j ;
     public string coinsString = "Coins";
    // public string Texto1;
     //public string Texto2;
@@ -20,14 +20,14 @@ public class Gamecontroller : MonoBehaviour
     public Text TextCoins;
     public static Gamecontroller gamecontroller;
     public GameObject canvas;
-    private bool creado;
+    GameOver GO;
+   // private bool creado;
     
 
     
     void Start()
     {
-
-        creado = false;
+        GO = GetComponent<GameOver>();
     }
 
     // Update is called once per frame
@@ -36,21 +36,29 @@ public class Gamecontroller : MonoBehaviour
         if (TextCoins != null)
         {
             TextCoins.text = coinsString + coins.ToString();
-            Texto3 = "Coins totales =" + ""+ coins.ToString();
+            Texto3 = "Coins totales:" + ""+ coins.ToString();
         }
-
-        if (canvas.activeSelf == false && creado == false)
+        if (canvas.activeSelf == false /*&& creado == false*/)
         {
-            creado = true;
-            Creartxt();
+            //creado = true;
+           
             //Texto1.Push(jugador.scoreText.text);
-            Texto2.Add(Jugador.score+"");
+            Texto2.Add(Jugador.score + "");
             //Debug.Log(Jugador.score + "");
 
         }
 
 
+
     }
+
+    public  void CanvasGO()
+    {
+        
+
+    }
+
+
 
     public void Restart()
     {
@@ -74,11 +82,11 @@ public class Gamecontroller : MonoBehaviour
         }
 
         //Contenido del file 
-     
-            string contenido = "Intento #" + i + ":" + "\n" + "Score:" + Jugador.score + "\n" + "High Score:" + PlayerPrefs.GetInt("PuntajeRecord", Jugador.score) + "\n" + "" + Texto3 + "\n";
+        
+            string contenido = "Intento #" + GameOver.NUMERO + ":" + "\n" + "Score: " + Jugador.score + "\n" + "High Score: " + PlayerPrefs.GetInt("PuntajeRecord", Jugador.score) + "\n" + "" + Texto3 + "\n";
             //Poner el texto 
             File.AppendAllText(path, contenido);
-            i++;
+            
        
         
 
